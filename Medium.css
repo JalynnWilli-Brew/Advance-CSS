@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 body {
     background-color: rgb(28, 126, 121);
@@ -10,12 +10,12 @@ body {
 
 .grid {
     display: grid;
-    padding: 16px;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto;
+    grid-template: 4fr/repeat(4,auto);
+    grid-column-gap: 25px;
     border-radius: 20px;
     padding: 10px;
     margin: 30px;
+
 }
 
 h1 {
